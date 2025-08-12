@@ -1,0 +1,25 @@
+# Secrets / env
+.env
+.envrc
+.python-version
+
+# Generated images and run outputs
+generated/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/

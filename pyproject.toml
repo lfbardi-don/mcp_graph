@@ -1,0 +1,17 @@
+[project]
+name = "mcp_graph"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = ""
+authors = [{ name = "Luis Felipe Bardi", email = "luisfelipebardi@gmail.com" }]
+license = { text = "MIT" }
+
+dependencies = [
+    "mcp[cli]",
+    "langchain-mcp-adapters",
+    "langgraph",
+    "langchain",
+    "openai",
+    "pillow",
+    "python-dotenv",
+]
